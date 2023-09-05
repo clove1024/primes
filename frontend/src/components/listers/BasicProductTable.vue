@@ -70,6 +70,7 @@
                     { text: "prodNumber", value: "prodNumber" },
                     { text: "prodName", value: "prodName" },
                     { text: "standard", value: "standard" },
+                    { text: "productType", value: "productType" },
                 ],
             product : [],
             newValue: {},
@@ -90,6 +91,7 @@
                 'prodNumber': '',
                 'prodName': '',
                 'standard': '',
+                'productType': '',
             }
         },
         methods: {

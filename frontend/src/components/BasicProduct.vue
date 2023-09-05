@@ -19,6 +19,7 @@
             <String label="ProdNumber" v-model="value.prodNumber" :editMode="editMode" :inputUI="''"/>
             <String label="ProdName" v-model="value.prodName" :editMode="editMode" :inputUI="''"/>
             <String label="Standard" v-model="value.standard" :editMode="editMode" :inputUI="''"/>
+            <ProductType offline label="ProductType" v-model="value.productType" :editMode="editMode" @change="change"/>
         </v-card-text>
 
         <v-card-actions>

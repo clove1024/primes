@@ -112,6 +112,7 @@
                 'prodNumber': '',
                 'prodName': '',
                 'standard': '',
+                'productType': '',
             }
         },
         methods:{
