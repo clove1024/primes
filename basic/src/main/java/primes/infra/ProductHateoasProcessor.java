@@ -1,10 +1,10 @@
-package untitled.infra;
+package primes.infra;
 
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.server.RepresentationModelProcessor;
 import org.springframework.stereotype.Component;
-import untitled.domain.*;
+import primes.domain.*;
 
 @Component
 public class ProductHateoasProcessor

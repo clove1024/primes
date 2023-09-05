@@ -1,7 +1,7 @@
 # 
 
 ## Model
-www.msaez.io/#/storming/20ca27e43aed3cabeb0c087f434585b4
+www.msaez.io/#/storming/primes
 
 ## Before Running Services
 ### Make sure there is a Kafka server running

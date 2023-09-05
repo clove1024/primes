@@ -10,7 +10,7 @@ spring:
 #<<< API Gateway / Routes
       routes:
         - id: basic
-          uri: http://localhost:8081
+          uri: http://localhost:8082
           predicates:
             - Path=/products/**, 
         - id: frontend

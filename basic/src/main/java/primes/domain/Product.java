@@ -1,15 +1,16 @@
-package untitled.domain;
+package primes.domain;
 
 import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
 import lombok.Data;
-import untitled.BasicApplication;
+import primes.BasicApplication;
 
 @Entity
 @Table(name = "Product_table")
 @Data
+//<<< DDD / Aggregate Root
 public class Product {
 
     @Id
@@ -29,3 +30,4 @@ public class Product {
         return productRepository;
     }
 }
+//>>> DDD / Aggregate Root

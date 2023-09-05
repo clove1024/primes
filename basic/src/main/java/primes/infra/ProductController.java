@@ -1,4 +1,4 @@
-package untitled.infra;
+package primes.infra;
 
 import java.util.Optional;
 import javax.servlet.http.HttpServletRequest;
@@ -8,7 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import untitled.domain.*;
+import primes.domain.*;
+
+//<<< Clean Arch / Inbound Adaptor
 
 @RestController
 // @RequestMapping(value="/products")
@@ -18,3 +20,4 @@ public class ProductController {
     @Autowired
     ProductRepository productRepository;
 }
+//>>> Clean Arch / Inbound Adaptor
